@@ -1,8 +1,8 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=/Users/leduclinh/Documents/flutter"
-export "FLUTTER_APPLICATION_PATH=/Users/leduclinh/Documents/GitHub/flutter-tutorials/005-basic-navigation/02-final"
-export "FLUTTER_TARGET=/Users/leduclinh/Documents/GitHub/flutter-tutorials/005-basic-navigation/02-final/lib/main.dart"
+export "FLUTTER_APPLICATION_PATH=/Users/leduclinh/Documents/GitHub/flutter-tutorials/007-scoped-model-guide/02-final"
+export "FLUTTER_TARGET=/Users/leduclinh/Documents/GitHub/flutter-tutorials/007-scoped-model-guide/02-final/lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "SYMROOT=${SOURCE_ROOT}/../build/ios"
 export "FLUTTER_FRAMEWORK_DIR=/Users/leduclinh/Documents/flutter/bin/cache/artifacts/engine/ios"
