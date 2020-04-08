@@ -2,19 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:scoped_guide/enums/view_state.dart';
 import 'package:scoped_guide/scoped_models/home_model.dart';
 import 'package:scoped_model/scoped_model.dart';
-
-import '../../service_locator.dart';
+import 'base_view.dart';
 
 class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ScopedModel<HomeModel>(
-      model: locator<HomeModel>(),
-      child: ScopedModelDescendant<HomeModel>(
-          builder: (context, child, model) => Scaffold(
+    return BaseView<HomeModel> (
+      builder: (context, child, model) => Scaffold(
               floatingActionButton: FloatingActionButton(
                 onPressed: () async {
-                  model.saveData();
+                  // model.saveData();
+                  var whereToNavigate = await model.saveData();
+
+                  if (whereToNavigate) {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => SussessView()))
+                  }
                 },
               ),
               body: Center(
@@ -25,7 +27,7 @@ class HomeView extends StatelessWidget {
                     Text(model.title)
                   ],
                 ),
-              ))),
+              ))
     );
   }
 
