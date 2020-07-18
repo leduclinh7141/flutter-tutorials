@@ -2,7 +2,7 @@
 
 The repo contains the source code for all the written tutorials by Filledstacks.
 
-All Tutorials plus additional snippets and shorter posts can be found on the [Official FilledStacks website](https://www.filledstacks.com/).
+All Tutorials plus additional snippets and shorter posts can be found on the [Official FilledStacks website](https://www.filledstacks.com/). Each tutorial's code can be downloaded separately using the "Download Code" button under the Thumbnail images in the Written tutorials linked below.
 
 <a href='https://ko-fi.com/L4L5WN7R' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
@@ -10,13 +10,47 @@ Please clone and star this repo to stay up to date on changes.
 
 ## Packages by FilledStacks
 
-[Provider Architecture](https://pub.dev/packages/provider_architecture): A package that provides two widgets that are commonly required when implementing the Provider Architecture as laid out by FilledStacks.
+[Stacked](https://pub.dev/packages/stacked): A package that helps implement the stacked architecture as shown in [this series](https://youtu.be/DO8le1W_HqQ)
 
 [SmartFlare](https://pub.dartlang.org/packages/smart_flare): An extension of the already awesome Flare packages that adds interactive to FlareActors with some more functionality.
 
 [Responsive Builder](https://pub.dev/packages/responsive_builder): A package that helps you write a readable and maintainable Responsive UI code base. Based on the [responsive UI series](https://www.youtube.com/playlist?list=PLQQBiNtFxeyJbOkeKBe_JG36gm1V2629H)
 
+## \*\* Important \*\*
+
+When you want to run any of the code first run
+
+```
+flutter create .
+```
+
+In the repo to generate the platform projects for the tutorials.
+
 ## Tutorials
+
+The later tutorials has been updated to use the stacked package. If you want to see the tutorials using the older code you can swap to the pre-stacked branch and work from there.
+
+**051 - Flutter Architecture Part 4 - How to Unit test a Unit Testing intro** \[ [Video](https://youtu.be/n21w5T3jdWE) \] \[ [Written](https://www.filledstacks.com/post/how-to-unit-test-in-flutter/) \] \[ [Source Code](https://github.com/FilledStacks/stacked-example/tree/part-4-unit-testing-1) \] - A complete guide to the setup of the basics for a starter stacked architecture project.
+
+**050 - Flutter Architecture Part 3 - Flutter Services** \[ [Video](https://youtu.be/UoZQS1bkNTw) \] \[ [Written](https://www.filledstacks.com/post/services-in-code-and-how-to-use-them-in-flutter/) \] \[ [Source Code](https://github.com/FilledStacks/stacked-example/tree/part-3-services) \] - A complete guide to the setup of the basics for a starter stacked architecture project.
+
+**049 - Flutter Architecture Part 2 - Stacked State Management scenarios** \[ [Video](https://youtu.be/hEy_36LPcgQ) \] \[ [Written](https://www.filledstacks.com/post/flutter-and-provider-architecture-using-stacked/) \] \[ [Source Code](https://github.com/FilledStacks/stacked-example/tree/part-2-stacked-statemanagement) \] - A complete guide to the setup of the basics for a starter stacked architecture project.
+
+**048 - Flutter Architecture Part 1 - Stacked, Routing and GetIt setup** \[ [Video](https://youtu.be/DO8le1W_HqQ) \] \[ [Written](https://www.filledstacks.com/post/flutter-and-provider-architecture-using-stacked/) \] \[ [Source Code](https://github.com/FilledStacks/stacked-example/tree/part1-setup) \] - A complete guide to the setup of the basics for a starter stacked architecture project.
+
+**047 - Firebase and Flutter Part 10 - Remote Config** \[ [Video](https://youtu.be/mPghiKYKUV4) \] \[ [Written](https://www.filledstacks.com/post/remote-config-in-flutter/) \] - This tutorial goes over remote config and how to manage it in a flutter project.
+
+**046 - Firebase and Flutter Part 9 - Dynamic Links in Flutter** \[ [Video](https://youtu.be/aBrRJqrQTpQ) \] \[ [Written](https://www.filledstacks.com/post/dynamic-links-in-flutter-a-complete-guide/) \] - This tutorial covers the use of dynamic links in flutter to perform auto routing and deep linking.
+
+**045 - Firebase and Flutter Part 8 - Realtime Paginated Data using Firestore** \[ [Video](https://youtu.be/1chV50D5BVU) \] \[ [Written](https://www.filledstacks.com/post/how-to-perform-real-time-pagination-with-firestore/) \] - This tutorial shows the implementation of getting real time firebase data when impelementing an infinte scrolling view.
+
+**044 - Firebase and Flutter Part 7 - Analytics** \[ [Video](https://youtu.be/31KpJXqCayo) \] \[ [Written](https://www.filledstacks.com/post/firebase-analytics-and-metrics-in-flutter/) \] - This tutorial shows you how to add analytics into your Flutter app for live monitoring of your users.
+
+**043 - Firebase and Flutter Part 6 - Push Notifications using Cloud Messaging** \[ [Video](https://youtu.be/Lq9-DPKWtIc) \] \[ [Written](https://www.filledstacks.com/post/push-notifications-in-flutter-using-firebase/) \] - This tutorial goes over my implementation of Push Notification in Flutter using Firebase Cloud Messaging.
+
+**042 - Firebase and Flutter - Part 5 - Firebase Cloud Storage** \[[Video](https://youtu.be/WDqi-ZUXHEo) \] \[ [Written](https://www.filledstacks.com/post/firebase-cloud-storage-in-flutter/) \] - In this tutorial we go over the implementation details of using Firebase Cloud Storage inside a Flutter application.
+
+**041 - Firebase and Flutter - Part 4 - Firestore Security Rules** \[ [Video](https://youtu.be/8rRr9GnynR0) \] \[ [Written](https://www.filledstacks.com/post/firestore-security-rules-with-testing/) \] - This tutorial covers the implementation of Firestore security rules and how to test them.
 
 **040 - Firebase and Flutter - Part 3 - CRUD using Firestore** \[ [Video](https://youtu.be/1PhAPWzGaM4) \] \[ [Written](https://filledstacks.firebaseapp.com/post/firestore-crud-in-flutter/) \] - This tutorial goes over the CRUD implementation using Firestore. We Create documents, Read the collection, Delete documents and Update existing documents data through Flutter.
 

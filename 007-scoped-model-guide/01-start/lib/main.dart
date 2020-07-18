@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:scoped_guide/ui/views/home_view.dart';
-import 'service_locator.dart';
 
-void main() {
-  setupLocator();
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -15,7 +10,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeView(),
+      home: Container(),
     );
   }
 }
